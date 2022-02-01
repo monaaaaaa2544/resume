@@ -16,9 +16,8 @@
 
 
 
+====================================================================================================
 
-
-<!-- 
 前端基础语言：TS ES6 
 
 可视化技术栈：WebGL WebGPU Mesh.js/three.js/glsl_Doodle/Spritejs D3.js/Echart.js Earcut(三角剖分框架) canvas2d svg shadertoy
@@ -36,4 +35,3 @@
 
 书籍：
 1. The book of shaders——关于webgl的书籍
--->
