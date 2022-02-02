@@ -24,6 +24,8 @@
 
 跨端技术：Flutter 
 
+小程序跨端框架：mpvue uni-app 
+
 游戏：
 1. 多平台移植：React Native Weex Cordova
 2. 物理效果：MatterJS ammo.js 
@@ -32,6 +34,11 @@
 5. 前端库：AVG.js Project Pixi.js Three.js Box2D.js
 6. Web 2d游戏引擎：Cocose Laya Egret
 7. 一般使用：Pixi.js开发 Cocos Creator开发
+
+web多媒体：audio video标签使用 Media Source Extensions API
+
+Webassembly
+
 
 书籍：
 1. The book of shaders——关于webgl的书籍
