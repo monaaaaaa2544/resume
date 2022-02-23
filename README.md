@@ -6,11 +6,16 @@
 - 熟练掌握常用配置项、Loader、插件的使用方法、能够灵活搭建集成Vue、React、Babel、Eslint、Less、Sass、图片处理等工具的webpack环境
 - 掌握常见脚手架工具的用法，例如：Vue-cli、create-react-app
 2. 掌握Vite工具的使用
-
+3. 前端基础语言：TS
+4. 框架： Vue3
 
 ## 书籍
 1.
 
+
+## 项目
+#### 记账App
+技术栈：
 
 
 
