@@ -50,3 +50,7 @@ Webassembly
 书籍：
 1. The book of shaders——关于webgl的书籍
 2. 图解HTTP、图解TCP/IP、网络是怎样连接的
+
+
+===========================================================================================================
+简历参考：https://fangyinghang.com/cv-2020/dist/index.html
