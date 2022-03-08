@@ -1,4 +1,4 @@
-网页预览：https://github.com/monaaaaaa2544/resume/dist/index.html
+网页预览：https://monaaaaaa2544.github.io/resume/dist/index.html
 
 ## 启动项目
 
