@@ -1,4 +1,4 @@
-网页预览：http://fangyinghang.com/cv-2020/dist/index.html
+网页预览：https://github.com/monaaaaaa2544/resume/blob/main/src/index.html
 
 ## 启动项目
 
