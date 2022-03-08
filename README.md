@@ -5,11 +5,11 @@
 ```
 npm i -g parcel-bundler
 cd src
-parcel src/index.html
+yarn dev
 ```
 
-## 部署网页
+## 打包
 
 ```
-parcel build ./src/index.html --no-minify
+yarn build
 ```

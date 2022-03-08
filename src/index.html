@@ -136,8 +136,11 @@
       width: 500px;
       height: 270px;
     }
+
     @media print {
-      #skills{display:none;}
+      #skills {
+        display: none;
+      }
     }
 
 
@@ -247,12 +250,14 @@
       #skills {
         width: auto;
       }
-      .jobs header{
+
+      .jobs header {
         flex-direction: column;
       }
-      .jobs header >h3,
-      .jobs header >h4,
-      .jobs header >span {
+
+      .jobs header>h3,
+      .jobs header>h4,
+      .jobs header>span {
         margin: 0;
       }
     }
@@ -262,22 +267,19 @@
 <body>
   <article>
     <section class="bio">
-      <h1>方应杭</h1>
-      <img src="https://pic2.zhimg.com/v2-d206f673b1e7b8a7e3b31bc8041e05e2_xll.jpg" alt="" width="100" height="100">
+      <h1>刘馨元</h1>
+      <img src="./images/person.jpg" alt="" width="150" height="120"
+        style="transform: rotate(90deg); margin-top: 5px" />
       <p>
-        男 | 30岁 | 前端开发工程师 | 杭州
+        女 | 23岁 | 前端开发工程师
       </p>
       <p>
-        手机：13812345678 | 微信：frank_fang | 邮箱：fangyinghang@foxmail.com
+        手机：17761018921 | 微信：monaniaa | 邮箱：lxy_from_swust@foxmail.com
       </p>
     </section>
 
 
-
-
-
-
-    <section class="projects">
+    <!-- <section class="projects">
       <h2>项目经历</h2>
       <ol>
         <li>
@@ -345,7 +347,7 @@
           </p>
         </li>
       </ol>
-    </section>
+    </section> -->
 
 
 
@@ -356,13 +358,16 @@
       <div class="wrapper">
         <div id="skills"></div>
         <ul>
-          <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong> </li>
+          <li>熟悉<strong>Html/CSS3/Javascript/Vue/Echarts</strong> 等 Web 前端开发技术；</li>
           <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
           <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
           <li>熟练掌握 React全家桶的使用，包括 create-react-app、ReactRouter、Redux 等</li>
           <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
           <li>了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
           <li>了解 <strong>Webpack 的配置和优化</strong></li>
+          <li>2.熟悉基本后端开发语言 Node、Python；</li>
+          <li>熟悉版本管理工具 git的使用；了解基本linux命令；</li>
+          <li>4.了解ORM框架Sequelize的使用以及MySQL数据库的使用</li>
         </ul>
       </div>
     </section>
@@ -375,84 +380,87 @@
         <li>
           <header>
             <h3>自己写的 DOM 库</h3>
-            <a href="#">源码链接</a>
+            <a href="#" target="_blank">源码链接</a>
           </header>
           <p>实现了元素选择、元素创建、<strong>事件委托</strong>、滑动手势等常见功能</p>
         </li>
         <li class="page2">
           <header>
-            <h3>会动的哆啦A梦</h3>
+            <h3>Mona记账</h3>
             <span>
-              <a href="#">源码链接</a>
-              <a href="https://fangyinghang.com/make-a-pikachu/">项目预览</a>
+              <a href="https://github.com/monaaaaaa2544/NoteMoney" target="_blank">源码链接</a>
+              <a href="https://fangyinghang.com/make-a-pikachu/" target="_blank">项目预览</a>
             </span>
           </header>
+          <section style="font-size:13px; color:teal">采用技术：Vue3、Vite、TypeScript、Echarts
+          </section>
           <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
         </li>
         <li>
           <header>
-            <h3>简易画板</h3>
+            <h3>基于人脸识别的在线考试系统开发 | 毕业设计</h3>
             <span>
-              <a href="#">源码链接</a>
-              <a href="#">项目预览</a>
+              <a href="#" target="_blank">源码链接</a>
+              <a href="#" target="_blank">项目预览</a>
             </span>
           </header>
-          <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
+          <p style="font-size:13px; color:teal">采用技术：Vuetify框架、Express框架、Node、百度AI开发平台提供的API、Sequelize、Echarts
+          </p>
+          <p>这是一个面向高校或在线教育平台的考试系统</p>
+          <p>
+            主要功能包括在线考试、管理题库和试卷、人脸识别的方式进行登录和注册、展示考试结果的可视化分析报告等。从数据库设计到后端接口再到前端展示都由我独立完成。
+          </p>
         </li>
+      </ul>
+      </li>
       </ul>
     </section>
 
 
 
     <section class="jobs">
-      <h2>工作经历</h2>
+      <h2>实习经历</h2>
       <ol>
         <li>
           <header>
-            <h3> 彩云工作室 </h3>
-            <h4>全栈开发工程师（Ruby+JS）</h4>
-            <span><time>2017年1月</time>~<time>2018年1月</time></span>
+            <h3> 北京华宇信息技术有限公司 </h3>
+            <h4> 测试工程师（Ruby+JS）</h4>
+            <span><time>2019年11月</time>~<time>2019年12月</time></span>
           </header>
           <ul>
             <li>
-              独立负责 iPad 客户端的后台 <strong>Rails</strong> 开发和前端开发工作
+              负责公司项目的<strong>功能测试</strong>，根据需求规格说明书编写测试用例，完成功能测试方案文档
             </li>
             <li>
-              负责团队基础库开发、单元测试、文档撰写，确保测试<strong>覆盖率达到 90%</strong> 以上
+              负责编写<strong>性能评估报告</strong>，确定性能测试的方案
             </li>
             <li>
-              作为前端骨干，负责给前端较弱的同事进行培训，提高其前端开发工作效率
+              负责提交、跟踪、回归bug、和开发人员进行沟通以及密切合作
             </li>
           </ul>
         </li>
-        <li>
-          <header>
-            <h3>哦外巴巴集团杭州总部</h3>
-            <h4>开发工程师</h4>
-            <span><time>2015年1月</time>~<time>2017年1月</time></span>
-          </header>
-          <ul>
-            <li>独立负责某 CRM 系统的开发与维护（后端使用Groovy，前端使用JS）</li>
-            <li>负责全部门 <strong>UI 框架的开发</strong>，包括对话框、<strong>树形组件</strong>、<strong>日期选择器</strong>等常用组件</li>
-            <li>定期组织内部分享，包括 Git 的使用、<strong>ES6 新特性</strong>、TypeScript 等话题</li>
-          </ul>
-        </li>
+
       </ol>
     </section>
 
     <section class="others">
       <h2>其他链接</h2>
       <ul>
-        <li><a href="https://www.zhihu.com/people/zhihusucks/posts/posts_by_votes">我的博客</a>，目前已有 21 篇技术文章</li>
-        <li><a href="https://github.com/frankfang">我的 GitHub</a>，过去三个月有 200 次提交</li>
+        <li><a href="https://monaaaaaa2544.github.io/" target="_blank">我的博客</a>，目前已有 21 篇技术文章</li>
+        <li><a href="https://github.com/monaaaaaa2544" target="_blank">我的 GitHub</a>，过去三个月有 200 次提交</li>
       </ul>
     </section>
 
     <section class="education">
       <h2>教育经历</h2>
       <p>
-        <span><time>2008年</time>~<time>2012年</time></span>
-        关山口职业技术学校 软件学院 本科</p>
+        <span><time>2016年</time>~<time>2020年</time></span>
+        西南科技大学 计算机科学与技术学院 计算机科学与技术专业 本科
+      </p>
+      <p>
+        <span><time>2020年</time>~<time>2023年</time></span>
+        深圳大学 计算机与软件学院 电子信息专业 研究生
+      </p>
     </section>
 
   </article>
