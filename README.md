@@ -3,8 +3,7 @@
 ## 启动项目
 
 ```
-npm i -g parcel-bundler
-cd src
+yarn install
 yarn dev
 ```
 
