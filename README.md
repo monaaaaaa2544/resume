@@ -1,4 +1,4 @@
-网页预览：https://monaaaaaa2544.github.io/resume/dist/index.html
+网页预览：https://resume-lxy.netlify.app/
 
 ## 启动项目
 
