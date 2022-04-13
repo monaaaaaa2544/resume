@@ -4,12 +4,11 @@
 1. 掌握webpack工具的使用
 - 理解打包流程
 - 熟练掌握常用配置项、Loader、插件的使用方法、能够灵活搭建集成Vue、React、Babel、Eslint、Less、Sass、图片处理等工具的webpack环境
-- 掌握常见脚手架工具的用法，例如：Vue-cli、create-react-app
-2. 掌握Vite工具的使用
+2. 掌握常见脚手架工具的使用，如：Vite、Vitesses、create-react-app
 3. 前端基础语言：TS
 4. 框架： Vue3
-
-## 书籍
+5. 熟悉UnoCSS
+## 书VV
 1.
 
 
@@ -28,6 +27,8 @@
 前端基础语言：TS ES6 
 
 可视化技术栈：WebGL WebGPU Mesh.js/three.js/glsl_Doodle/Spritejs D3.js/Echart.js Earcut(三角剖分框架) canvas2d svg shadertoy
+
+后端：GO Koa Express
 
 跨端技术：Flutter 
 
